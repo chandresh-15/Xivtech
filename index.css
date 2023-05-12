@@ -1,0 +1,126 @@
+*{
+    margin: 0px;
+    font-family: serif;
+}
+
+.listcomponent{
+   padding: 5%;
+   display: block;
+}
+h4{
+    font-size: 28px;
+    font-weight: bolder;
+}
+h1{
+    font-size: 50px;
+    font-weight: 500px;
+}
+p{
+    font-size: 20.8px;
+    margin-top: 20px;
+    font-weight: 100px;
+    padding-bottom: 20%;
+}
+
+.row{
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: -10px;
+}
+.row_images{
+    height: 100%;
+    width: 88%;
+    object-fit: cover;
+    overflow: hidden;
+    vertical-align: middle;  
+}
+
+#row{
+    margin-top: -9%;
+}
+.button{
+    margin-left: 35px;
+}
+.button_click{
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    padding: 20px 50px 20px 50px;
+
+}
+.button_click:hover{
+    color: black;
+    background-color: white;
+    transition: 0.7s;
+}
+#hr-line{
+    margin-top: 30px;
+    background-color: rgb(0, 0, 0);
+    height: 3px;
+    width: 100%;
+}
+@media  (min-width: 367px) and (max-width : 767px) {
+    .left_side{
+        margin-top: 70px;
+    }
+    .Rightside{
+        margin-top: 20%;
+    }
+}
+@media   (max-width : 367px) {
+    .left_side{
+        margin-top: 80px;
+    }
+    .Rightside{
+        margin-top: 55%;
+    }
+}
+/* @media (min-width: 767px) and (max-width : 1500px) {
+    .listcomponent{
+        padding: 5%;
+        display: block;
+     }
+     h4{
+         font-size: 50px;
+         font-weight: bolder;
+     }
+      h1{
+         font-size: 80px;
+         font-weight: 500px;
+     }
+     
+     p{
+         font-size: 30px;
+         margin-top: 100px;
+         font-weight: 100px;
+         padding-bottom: 20%;
+     }
+     
+     .row{
+         margin-left: 50px;
+         margin-right: 50px;
+         margin-top: -10px;
+     }
+     
+     .row_images{
+         height: 120%;
+         width: 99%;
+         object-fit: cover;
+         overflow: hidden;
+         vertical-align: middle;  
+     }
+     
+     #row{
+         margin-top: -6%;
+     }
+     
+     .button{
+         margin-left: 45px;
+     }
+    
+} */
+
+
+
+
+
